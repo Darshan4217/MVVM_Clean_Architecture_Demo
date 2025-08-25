@@ -90,7 +90,7 @@ Each feature maintains its own domain models for better separation of concerns:
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Darshan4217/MVVM_Clean_Architecture_Demo.git/
    cd AssignmentTask
    ```
 
