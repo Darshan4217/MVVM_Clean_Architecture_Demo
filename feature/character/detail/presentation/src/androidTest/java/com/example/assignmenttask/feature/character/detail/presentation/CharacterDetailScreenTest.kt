@@ -5,7 +5,6 @@ import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.example.assignmenttask.feature.character.detail.domain.model.Character
 import com.example.assignmenttask.feature.character.detail.domain.model.Location
-import com.example.assignmenttask.feature.character.detail.presentation.CharacterDetailUiState
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -58,8 +57,7 @@ class CharacterDetailScreenTest {
         // When
         composeTestRule.setContent {
             CharacterDetailScreen(
-                uiState = uiState,
-                onRetry = {}
+                uiState = uiState
             )
         }
 
@@ -76,8 +74,7 @@ class CharacterDetailScreenTest {
         // When
         composeTestRule.setContent {
             CharacterDetailScreen(
-                uiState = uiState,
-                onRetry = {}
+                uiState = uiState
             )
         }
 
@@ -122,8 +119,7 @@ class CharacterDetailScreenTest {
         // When
         composeTestRule.setContent {
             CharacterDetailScreen(
-                uiState = uiState,
-                onRetry = {}
+                uiState = uiState
             )
         }
 
@@ -131,36 +127,6 @@ class CharacterDetailScreenTest {
         composeTestRule.onNodeWithText("Type:").assertExists()
         composeTestRule.onNodeWithText("Unknown").assertExists()
 
-    }
-
-    @Test
-    fun characterDetailScreenShowsErrorStateWithRetryButton() {
-        // Given
-        val errorMessage = "Failed to load character details"
-        val uiState = CharacterDetailUiState.Error(errorMessage)
-        var retryClicked = false
-
-        // When
-        composeTestRule.setContent {
-            CharacterDetailScreen(
-                uiState = uiState,
-                onRetry = { retryClicked = true }
-            )
-        }
-
-        // Then
-        composeTestRule.onNodeWithTag("loading_component").assertDoesNotExist()
-        composeTestRule.onNodeWithTag("character_detail_content").assertDoesNotExist()
-
-        // Verify error message
-        composeTestRule.onNodeWithText(errorMessage).assertExists()
-
-        // Verify retry button
-        composeTestRule.onNodeWithText("Retry").assertExists()
-
-        // Test retry button click
-        composeTestRule.onNodeWithText("Retry").performClick()
-        assert(retryClicked) { "Retry callback should be invoked" }
     }
 
     @Test
@@ -174,8 +140,7 @@ class CharacterDetailScreenTest {
         // When
         composeTestRule.setContent {
             CharacterDetailScreen(
-                uiState = uiState,
-                onRetry = {}
+                uiState = uiState
             )
         }
 
@@ -193,8 +158,7 @@ class CharacterDetailScreenTest {
         // When
         composeTestRule.setContent {
             CharacterDetailScreen(
-                uiState = uiState,
-                onRetry = {}
+                uiState = uiState
             )
         }
 
@@ -219,8 +183,7 @@ class CharacterDetailScreenTest {
         // When
         composeTestRule.setContent {
             CharacterDetailScreen(
-                uiState = uiState,
-                onRetry = {}
+                uiState = uiState
             )
         }
 
@@ -248,8 +211,7 @@ class CharacterDetailScreenTest {
         // When
         composeTestRule.setContent {
             CharacterDetailScreen(
-                uiState = uiState,
-                onRetry = {}
+                uiState = uiState
             )
         }
 
@@ -278,8 +240,7 @@ class CharacterDetailScreenTest {
         // When
         composeTestRule.setContent {
             CharacterDetailScreen(
-                uiState = uiState,
-                onRetry = {}
+                uiState = uiState
             )
         }
 
@@ -302,15 +263,13 @@ class CharacterDetailScreenTest {
         // When
         composeTestRule.setContent {
             CharacterDetailScreen(
-                uiState = uiState,
-                onRetry = {}
+                uiState = uiState
             )
         }
 
         // Then
         composeTestRule.onNodeWithText("Episodes (3)").assertExists()
         composeTestRule.onNodeWithText("https://test.com/episode1").assertExists()
-       // composeTestRule.onAllNodesWithText("").assertCountEquals(0)
     }
 
     @Test
@@ -326,8 +285,7 @@ class CharacterDetailScreenTest {
         // When
         composeTestRule.setContent {
             CharacterDetailScreen(
-                uiState = uiState,
-                onRetry = {}
+                uiState = uiState
             )
         }
 
