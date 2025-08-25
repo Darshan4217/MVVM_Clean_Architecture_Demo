@@ -29,7 +29,7 @@ app/
 
 ### 🎯 Domain Model Strategy
 
-Each feature maintains its own domain models for better separation of concerns:
+Each feature maintains its own domain & data models for better separation of concerns:
 
 - **List Feature Character**: Minimal model with essential fields for list display
 - **Detail Feature Character**: Complete model with all character information
@@ -92,10 +92,8 @@ Each feature maintains its own domain models for better separation of concerns:
 ### Installation
 
 1. **Clone the repository**
-   ```bash
+
    git clone https://github.com/Darshan4217/MVVM_Clean_Architecture_Demo.git
-   cd AssignmentTask
-   ```
 
 2. **Open in Android Studio**
    - Open Android Studio
