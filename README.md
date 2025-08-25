@@ -67,6 +67,9 @@ Each feature maintains its own domain models for better separation of concerns:
 - **Build System**: Gradle with Version Catalogs
 
 ## 📱 Screenshots
+<img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/1782927c-e601-4d2d-ae1e-96ecec8275af" />
+
+<img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/030ab900-b2ba-444b-a887-a994b847b5cb" />
 
 ### Character List Screen
 - Displays characters in a scrollable list
@@ -90,7 +93,7 @@ Each feature maintains its own domain models for better separation of concerns:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Darshan4217/MVVM_Clean_Architecture_Demo.git/
+   git clone https://github.com/Darshan4217/MVVM_Clean_Architecture_Demo.git
    cd AssignmentTask
    ```
 
@@ -108,18 +111,6 @@ Each feature maintains its own domain models for better separation of concerns:
    - Click the Run button or press Shift + F10
 
 ## 🧪 Testing
-
-### Running Tests
-
-**Unit Tests:**
-```bash
-./gradlew test
-```
-
-**Instrumented Tests:**
-```bash
-./gradlew connectedAndroidTest
-```
 
 ### Test Coverage
 - **Feature Modules**: Comprehensive testing for each feature
