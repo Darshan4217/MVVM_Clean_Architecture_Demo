@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="CHOOSE_PER_TEST" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/core/common" />
+            <option value="$PROJECT_DIR$/core/network" />
+            <option value="$PROJECT_DIR$/core/ui" />
+            <option value="$PROJECT_DIR$/feature" />
+            <option value="$PROJECT_DIR$/feature/character" />
+            <option value="$PROJECT_DIR$/feature/character/detail" />
+            <option value="$PROJECT_DIR$/feature/character/detail/data" />
+            <option value="$PROJECT_DIR$/feature/character/detail/di" />
+            <option value="$PROJECT_DIR$/feature/character/detail/domain" />
+            <option value="$PROJECT_DIR$/feature/character/detail/presentation" />
+            <option value="$PROJECT_DIR$/feature/character/list" />
+            <option value="$PROJECT_DIR$/feature/character/list/data" />
+            <option value="$PROJECT_DIR$/feature/character/list/di" />
+            <option value="$PROJECT_DIR$/feature/character/list/domain" />
+            <option value="$PROJECT_DIR$/feature/character/list/presentation" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

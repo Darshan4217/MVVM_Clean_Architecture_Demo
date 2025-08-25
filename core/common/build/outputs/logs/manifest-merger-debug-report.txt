@@ -1,0 +1,16 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\LENOVO\AndroidStudioProjects\AssignmentTask\core\common\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12312634579642893635.xml:2:13-83
+INJECTED from C:\Users\LENOVO\AndroidStudioProjects\AssignmentTask\core\common\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12312634579642893635.xml:2:13-83
+	package
+		INJECTED from C:\Users\LENOVO\AndroidStudioProjects\AssignmentTask\core\common\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12312634579642893635.xml
+	xmlns:android
+		ADDED from C:\Users\LENOVO\AndroidStudioProjects\AssignmentTask\core\common\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12312634579642893635.xml:2:23-81
+uses-sdk
+INJECTED from C:\Users\LENOVO\AndroidStudioProjects\AssignmentTask\core\common\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12312634579642893635.xml reason: use-sdk injection requested
+INJECTED from C:\Users\LENOVO\AndroidStudioProjects\AssignmentTask\core\common\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12312634579642893635.xml
+INJECTED from C:\Users\LENOVO\AndroidStudioProjects\AssignmentTask\core\common\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12312634579642893635.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\LENOVO\AndroidStudioProjects\AssignmentTask\core\common\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12312634579642893635.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\LENOVO\AndroidStudioProjects\AssignmentTask\core\common\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest12312634579642893635.xml
