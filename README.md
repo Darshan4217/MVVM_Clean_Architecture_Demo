@@ -106,7 +106,7 @@ Each feature maintains its own domain & data models for better separation of con
 
 4. **Run the app**
    - Connect an Android device or start an emulator
-   - Click the Run button or press Shift + F10
+   - Click the Run button
 
 ## 🧪 Testing
 
@@ -327,16 +327,6 @@ Each feature module follows the same structure with independent domain models:
 - **Future-Proof**: Architecture supports future growth
 - **Feature Independence**: Features can be modified or replaced without affecting others
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes following the established architecture
-4. Add tests for new functionality
-5. Ensure all tests pass
-6. Submit a pull request
-
-
 ## 🙏 Acknowledgments
 
 - Rick and Morty API for providing the data
@@ -344,17 +334,10 @@ Each feature module follows the same structure with independent domain models:
 - Google for Hilt dependency injection
 - Square for Retrofit networking library
 
-## 📞 Support
-
-For questions or issues, please open an issue in the repository or contact the development team.
-
 ## 🔮 Future Enhancements
 
 This architecture supports easy addition of:
 - **New Features**: Follow the same pattern for new features with independent domain models
-- **Additional Data Sources**: Easy to add local database, caching, etc.
-- **Analytics**: Can be added at the presentation layer
 - **Multi-Module Apps**: Can be extended to support multiple app modules
 - **Model Customization**: Each feature can customize its domain models based on specific requirements
-- **API Evolution**: Features can adapt to API changes independently
 
